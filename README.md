@@ -15,6 +15,7 @@ To download the data execute download_data.py. Then check if there's any missing
 ### Installation
 
 Watch installation_tutorial.mp4 to learn how to install the application to Snowsight.
+<img width="1280" height="595" alt="image" src="https://github.com/user-attachments/assets/02b21ccd-c58d-42cb-9bf1-fc294846c470" />
 
 ## Usage
 This application uses stock price data to visualize the trend or pattern.
