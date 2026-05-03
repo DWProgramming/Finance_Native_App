@@ -1,25 +1,58 @@
-# Finance_Native_App
+# Finance Native App
 
 ## Overview
+This application visualizes stock price trends for a single company using financial indicators such as Moving Average (MA) and Relative Strength Index (RSI).
 
-It shows the close price of a single company portfolio data. It incorporates MA, RSI index to evaluate the price change.
+It helps users analyze price movements and identify potential patterns in the market.
 
+---
+## Tech Stack
+- Python
+- Snowflake (Snowpark)
+- Streamlit (UI)
+- Pandas
+
+---
+## Project Structure
+.
+├── src/ # Main application source code
+├── data/ # Stock data (optional / can be ignored)
+├── FINANCE_NATIVE_APP_INSTALL.ipynb # Installation notebook
+├── README.md
+
+---
 ## Getting Started
 
-Execute the FINANCE_NATIVE_APP_INSTALL.ipynb file to install. Then open the FINANCE_APP_V1 to use the app.
+### 1. Prerequisites
+- Snowflake account
+- Python 3.x installed
 
-### Prerequisites
-You need Snowflake account to connect to a session. Check if you can connect the your account using connection_tes.py.
-To download the data execute download_data.py. Then check if there's any missing value using data_eda.py.
+---
+### 2. Setup
 
-### Installation
+#### Step 1. Clone repository
+- git clone https://github.com/DWProgramming/Finance_Native_App.git
+- cd Finance_Native_App
+#### Step 2. Install dependencies
+FINANCE_NATIVE_APP_INSTALL.ipynb
+#### Step 3. Run Application
+Open and execute: FINANCE_APP_V1
 
-Watch installation_tutorial.mp4 to learn how to install the application to Snowsight.
-<img width="1280" height="595" alt="image" src="https://github.com/user-attachments/assets/02b21ccd-c58d-42cb-9bf1-fc294846c470" />
+---
+## Features
+- Stock close price visualization
+- Moving Average (MA) calculation
+- RSI (Relative Strength Index) calculation
+- Trend analysis based on technical indicators
 
+---
 ## Usage
-This application uses stock price data to visualize the trend or pattern.
+- Connect to Snowflake session
+- Load stock data
+- Visualize price trends
+- Analyze MA and RSI indicators
 
-1. Binding Reference
-2. Close price and MA calculation and visualization
-3. RSI calcualtion and visualization
+---
+## Notes
+- Snowflake connection is required to run this app
+- Make sure your credentials are properly configured
