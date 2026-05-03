@@ -14,12 +14,13 @@ It helps users analyze price movements and identify potential patterns in the ma
 
 ---
 ## Project Structure
+```
 .
 ├── src/ # Main application source code
 ├── data/ # Stock data (optional / can be ignored)
 ├── FINANCE_NATIVE_APP_INSTALL.ipynb # Installation notebook
 ├── README.md
-
+```
 ---
 ## Getting Started
 
@@ -32,11 +33,12 @@ It helps users analyze price movements and identify potential patterns in the ma
 
 #### Step 1. Clone repository
 - git clone https://github.com/DWProgramming/Finance_Native_App.git
-- cd Finance_Native_App
 #### Step 2. Install dependencies
 FINANCE_NATIVE_APP_INSTALL.ipynb
 #### Step 3. Run Application
 Open and execute: FINANCE_APP_V1
+
+Watch the installation tutorial: https://youtu.be/Jn0oJu4eG_Y
 
 ---
 ## Features
